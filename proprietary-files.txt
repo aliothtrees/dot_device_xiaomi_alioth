@@ -674,6 +674,9 @@ vendor/lib64/libdapparamstorage.so|c54376a54043115f11154b47b10f6156f904ed00
 vendor/lib64/libdlbdsservice.so|77e3a0d44ce95c7e5139badb94087ea58211b022
 vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so|7afb6907a83aa7c9faa7308ae5b39338eadac1c8
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so|f3593ce869d036f98ddc7fc8223a8b55dcf0ca36
+# Graphics (Vulkan Overlays) - from redfin-user-12-S3B1.220318.003-8372304-release-keys
+-vendor/app/gpu_profiling_vulkan_layer/gpu_profiling_vulkan_layer.apk;PRESIGNED|11125c9e335a764d5d5dcbb23f805513
+
 
 # Graphics (Adreno firmware)
 vendor/firmware/a650_gmu.bin
