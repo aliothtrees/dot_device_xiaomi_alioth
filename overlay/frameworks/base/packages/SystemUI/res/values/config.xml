@@ -65,16 +65,6 @@
         <item>1</item>
     </integer-array>
 
-    <!-- Doze: Table that translates sensor values from the doze_brightness_sensor_type sensor
-               to an opacity value for a black scrim that is overlayed in AOD1.
-               Valid range is from 0 (transparent) to 255 (opaque).
-               -1 means keeping the current opacity. -->
-    <integer-array name="config_doze_brightness_sensor_to_scrim_opacity">
-        <item>-1</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-    </integer-array>
+    <!-- FPSInfoService FPS node file path -->
+    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/sde-crtc-0/measured_fps</string>
 </resources>
