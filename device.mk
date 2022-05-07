@@ -141,9 +141,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libstdc++.vendor
 
-# Inherit Google Camera
-$(call inherit-product-if-exists, vendor/GoogleCamera/config.mk) 
-
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
