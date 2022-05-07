@@ -247,7 +247,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_alioth \
+    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -541,6 +542,9 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Refresh Rate Settings
+$(call inherit-product, $(LOCAL_PATH)/configs/refreshrate/refreshrate.mk)
+
 # RIL
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
@@ -616,7 +620,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.xiaomi
+    vendor.lineage.touch@1.0-service.xiaomi_alioth
 
 # USB
 PRODUCT_PACKAGES += \
